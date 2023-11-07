@@ -1,2 +1,16 @@
 *tfstate*
-terraform/.terraform/*
+.terraform/
+.terraform.lock.hcl
+
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+*.tfvars.json
+
+*.hcl
+*.pem
+*.key
+
+*.tfplan
+
+*.terraform-version
